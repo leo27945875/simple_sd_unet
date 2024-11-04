@@ -1,4 +1,4 @@
-## A simple implementation of the UNet of SD v1.5.
+## A simple implementation of the UNet of SD v1.5
 
 It can directly load the SD model config and weights in the `diffusers`.
 
