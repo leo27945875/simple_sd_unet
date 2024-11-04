@@ -1,6 +1,6 @@
 ## A simple implementation of the UNet of SD v1.5
 
-It can directly load the SD model config and weights in the `diffusers`.
+It can directly load the SD model config and weights in the [diffusers](https://github.com/huggingface/diffusers).
 
 ```python
 from diffusers import StableDiffusionPipeline
