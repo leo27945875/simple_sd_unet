@@ -12,3 +12,7 @@ unet.load_state_dict(pipe.unet.state_dict())
 ```
 
 ![](figures/unet.png)
+
+## Reference
+
+https://arxiv.org/abs/2112.10752
