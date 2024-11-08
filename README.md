@@ -1,4 +1,4 @@
-## A simple implementation of the UNet of SD v1.5
+## A simple implementation of the UNet of StableDiffusion
 
 This is a simpler implementation of the UNet of SD than [diffusers](https://github.com/huggingface/diffusers). Researchers can test their new ideas on this implementation more quickly and conveniently.
 
