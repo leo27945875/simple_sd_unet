@@ -1,6 +1,8 @@
 ## A simple implementation of the UNet of SD v1.5
 
-It can directly load the SD model config and weights in the [diffusers](https://github.com/huggingface/diffusers).
+This is a simpler implementation of the UNet of SD than [diffusers](https://github.com/huggingface/diffusers). Researchers can test their new ideas on this implementation more quickly and conveniently.
+
+It can directly load the SD model config and weights in the [diffusers](https://github.com/huggingface/diffusers):
 
 ```python
 from diffusers import StableDiffusionPipeline
@@ -15,4 +17,5 @@ unet.load_state_dict(pipe.unet.state_dict())
 
 ## Reference
 
-https://arxiv.org/abs/2112.10752
+* https://arxiv.org/abs/2112.10752
+* https://github.com/huggingface/diffusers
